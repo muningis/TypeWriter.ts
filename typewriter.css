@@ -1,0 +1,45 @@
+.TypeWriter__text {
+  position: relative;
+}
+.TypeWriter__text:after {
+  content: "|";
+  position: absolute;
+  top: 0;
+  right: -0.33em;
+  color: #333;
+  animation-name: Blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@-moz-keyframes Blink {
+  0%, 49% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes Blink {
+  0%, 49% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes Blink {
+  0%, 49% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+@keyframes Blink {
+  0%, 49% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "typewriter.ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokasMuningis/TypeWriter.ts.git"
+  },
+  "keywords": [],
+  "author": "Rokas Muningis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RokasMuningis/TypeWriter.ts/issues"
+  },
+  "homepage": "https://github.com/RokasMuningis/TypeWriter.ts#readme",
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "css:build": "stylus typewriter.styl --out ./",
+    "js:build": "tsc typewriter.ts --module commonjs --target es3"
+  }
+}
