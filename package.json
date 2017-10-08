@@ -1,7 +1,7 @@
 {
   "name": "typewriter.ts",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Basic TypeWriter effect.",
   "main": "index.js",
   "repository": {
     "type": "git",
